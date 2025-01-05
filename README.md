@@ -10,18 +10,17 @@
 4. Activate the created virtual environment.
 5. Install the necessary packages from the requirements file with: ``pip install -r requirements.txt``.
 6. Download and install [PyTorch](https://pytorch.org/get-started/locally/).
-7. Retrieve the [motion dataset](https://zenodo.org/record/8427980/files/data.zip?download=1) and decompress it.
 
 ### Evaluate
 
 **One BVH file**
 ```bash
-	python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\xample.bvh --config .\config\6_trackers_config.json
+python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\xample.bvh --config .\config\6_trackers_config.json
 ```
 
 **A directory with BVH files**
 ```bash
-	python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\ --config .\config\6_trackers_config.json
+python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\ --config .\config\6_trackers_config.json
 ```
 
 Results will be saved in ``.\data\``
@@ -35,12 +34,12 @@ Note that the included ``.\data\example\`` does not have enough data for trainin
 
 **1. Train the VAE**
 ```bash
-	python .\src\train.py .\data\example\ name --fk
+python .\src\train.py .\data\example\ name --fk
 ```
 
 **2. Train the temporal predictor**
 ```bash
-	python .\src\train_temporal.py .\data\example\ name
+python .\src\train_temporal.py .\data\example\ name
 ```
 
 ## License
