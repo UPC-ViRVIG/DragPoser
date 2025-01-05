@@ -47,3 +47,5 @@ python .\src\train_temporal.py .\data\example\ name
 - The code in this repository is released under the MIT license. Please, see the [LICENSE](LICENSE) for further details.
 
 - The model weights in this repository and the data are licensed under CC BY-SA 4.0 license as found in the [LICENSE_data](LICENSE_data) file.
+
+- The webpage under the ``.docs\`` directory was built using the [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template). This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
