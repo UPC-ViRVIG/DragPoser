@@ -15,7 +15,7 @@
 
 **One BVH file**
 ```bash
-python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\xample.bvh --config .\config\6_trackers_config.json
+python .\src\eval_drag.py .\models\model_dancedb .\data\example\eval\example.bvh --config .\config\6_trackers_config.json
 ```
 
 **A directory with BVH files**
